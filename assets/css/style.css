@@ -78,6 +78,7 @@ section .rectangle {
   border-radius: 10px;
   font-weight: 700;
   font-size: 22px;
+  line-height: 45px;
 }
 
 section img {
@@ -88,6 +89,12 @@ section img {
   object-fit: cover;
   object-position: center;
   margin-right: 15px;
+  margin-left: 3px;
+}
+
+section img .img-center {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 section ul {
